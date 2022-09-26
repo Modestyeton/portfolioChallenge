@@ -9,7 +9,7 @@
 .navBar{
 width: 100%;
 padding-bottom: 30px;
-background-color: rgb(80, 34, 34);
+background-color: black;
 }
 
 nav{
@@ -25,6 +25,17 @@ ul{
     list-style: none;
     display: flex;
     gap: 30px;
+}
+
+#menu{
+    display: none;
+    color: #fff;
+}
+
+#close{
+    display: none;
+    color: #fff;
+    position: absolute;
 }
 
 button{
@@ -175,19 +186,11 @@ footer .wrap{
         font-size: 20px;
     }
 
-    .menu{
+    #menu{
         display: block;
-        position: absolute;
-        right: 12px;
-        top: 20px;
+        
     }
 
-    .fa-solid{ 
-        display: block;
-        position: absolute;
-       font-size: 30px;
-       color: rgb(23, 68, 51);
-    }
 
     /* SECOND SET STYING */
     .secondSet{
