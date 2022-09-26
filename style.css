@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+/* NAVBAR SECTIOIN */
+.navBar{
+width: 100%;
+padding-bottom: 30px;
+background-color: rgb(80, 34, 34);
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+button{
+padding: 15px 20px;
+background-color: rgb(212, 212, 86);
+border: none;
+font-weight: 600;
+}
+
+.menu{
+    color: #fff;
+    display: none;
+    font-size: 35px;
+}
+/* second section styling */
+.secondLine{
+    background-color: black;
+}
+
+.secondSet{
+    width: 80%;
+    margin: auto;
+}
+
+.secondSet .wrap{
+    width: 50%;
+    color: #fff;
+    padding-bottom: 90px;
+}
+
+.secondSet .wrap h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.secondSet .wrap  p{
+    font-size: 18px;
+}
+
+/* logos set styling */
+.logosSet{
+    width: 100%;
+    }
+
+.logosSet .wrap{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* imageSet */
+.imageSet{
+    width: 100%;
+   
+    }
+
+.imageSet .wrap{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.imageSet .wrap .one{
+    width: 48%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 60px;
+    /* background-color: blueviolet; */
+    
+}
+
+.imageSet .wrap .one img{
+    width: 98%;
+    margin: auto;
+    
+}
+
+/* infoSet */
+.infoSet{
+    background-color: rgb(49, 49, 49);
+}
+
+.infoSet .wrap{
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(187, 179, 179); */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.infoSet .wrap .first{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+/* LAST LINE STYLE */
+.lastLine{
+    background-color: black;
+    color: #fff;
+}
+
+.lastSet{
+    width: 80%;
+    margin: auto;
+}
+
+.lastSet .wrap{
+    width: 50%;
+    padding: 50px 0px;
+}
+
+/* FOOTER SECTION */
+footer{
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+}
+
+footer .wrap{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1000px){
+    
+    .navv{
+        width: 94%;
+        margin: auto;
+        justify-content: baseline;
+    }
+
+    .navBar ul,
+    .navBar button{
+        display: none;
+    }
+
+    .navBar h3{
+        font-size: 20px;
+    }
+
+    .menu{
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 20px;
+    }
+
+    .fa-solid{ 
+        display: block;
+        position: absolute;
+       font-size: 30px;
+       color: rgb(23, 68, 51);
+    }
+
+    /* SECOND SET STYING */
+    .secondSet{
+        width: 94%;
+    }
+
+    .secondSet .wrap h1{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .secondSet .wrap{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .secondSet .wrap  p{
+        font-size: 15px;
+    }
+
+    .logosSet .wrap{
+        width: 94%;
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .logosSet .wrap img{
+        width: 10%;
+        
+    }
+    
+
+    /* IMAGE SET */
+    .imageSet .wrap{
+        width: 94%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .imageSet .wrap .one{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+/* INFO SET */
+.infoSet .wrap{
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infoSet .wrap .first{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-color: aquamarine; */
+}
+
+.lastSet{
+    width: 94%;
+    margin: auto;
+}
+
+.lastSet .wrap{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+
+
+}
+
