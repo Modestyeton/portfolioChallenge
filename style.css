@@ -35,7 +35,30 @@ ul{
 #close{
     display: none;
     color: #fff;
-    position: absolute;
+    /* position: absolute; */
+}
+#menuBar{
+    display: none;
+    background-color: #fff;
+}
+
+#menuBar ul{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top:30px;
+font-size: 18px;
+color:black;
+}
+
+#menuBar button{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: black;
+    color: #fff;
 }
 
 button{
@@ -84,10 +107,13 @@ font-weight: 600;
     width: 80%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-  margin-bottom: 50px;
+    margin-bottom: 50px;
+    /* background-color: pink; */
 }
+
 
 /* imageSet */
 .imageSet{
@@ -183,15 +209,29 @@ footer .wrap{
     }
 
     .navBar h3{
-        font-size: 20px;
+        padding-top: 10px;
+        font-size: 15px;
     }
 
     #menu{
         display: block;
-        
+        font-size: 30px;
+        /* position: relative; */
     }
 
+    #close{
+        display: none;
+        font-size: 30px;
+        /* position: absolute; */
+    }
 
+    #menuBar{
+        /* display: block; */
+        height: 300px;
+    }
+
+   
+    
     /* SECOND SET STYING */
     .secondSet{
         width: 94%;
@@ -211,15 +251,15 @@ footer .wrap{
     }
 
     .logosSet .wrap{
-        width: 94%;
+        /* width: 50%; */
         display:flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         margin-bottom: 30px;
     }
 
     .logosSet .wrap img{
-        width: 10%;
-        
+        /* width: 30%; */
+        margin-bottom: 5px;
     }
     
 
